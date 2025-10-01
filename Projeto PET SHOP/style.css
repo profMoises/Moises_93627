@@ -1,0 +1,38 @@
+  /* ESTILOS DO CABEÇALHO */
+  /* Define o layout do cabeçalho e seu conteúdo */
+  header {
+    background-color: #ffcc00; /* Cor vibrante para o cabeçalho */
+    padding: 20px 0; /* Espaçamento superior e inferior */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    border-bottom: 4px solid #ff9900; /* Adiciona uma borda na parte inferior para destaque */
+  }
+  
+  .logo img {
+    width: 180px; /* Tamanho da imagem da logo */
+  }
+
+
+   /* NAVEGAÇÃO */
+  /* Define a lista de navegação como horizontal e centralizada */
+  nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Coloca os itens em linha */
+    justify-content: center; /* Centraliza os itens dentro do container */
+    margin-top: 10px; /* Espaçamento superior entre o logo e a navegação */
+  }
+  
+  nav ul li {
+    margin: 0 20px; /* Espaçamento lateral entre os links */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333; /* Cor do texto dos links */
+    font-weight: bold; /* Destaca os links com negrito */
+    font-size: 18px; /* Tamanho da fonte dos links */
+    transition: color 0.3s; /* Adiciona transição suave para mudanças de cor */
+  }
+  
+  nav ul li a:hover {
+    color: #ff9900; /* Muda a cor dos links ao passar o mouse */
+  }
