@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+}
+
+.branco {
+    background-color: white;
+}
+
+.preto {
+    background-color: black;
+}
