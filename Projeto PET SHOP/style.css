@@ -89,6 +89,9 @@
     border-radius: 5px; /* Bordas arredondadas */
   }
   
+
+
+
   /* SEÇÃO "SOBRE NÓS" */
   .sobre-nos {
     text-align: center; /* Centraliza o texto */
@@ -122,6 +125,9 @@
     background-color: #ffcc00; /* Cor do botão ao passar o mouse */
   }
   
+
+
+  
   /* RODAPÉ */
   footer {
     background-color: #ffcc00; /* Cor de fundo do rodapé */
@@ -131,6 +137,20 @@
     color: #333; /* Cor do texto */
     border-top: 4px solid #ff9900; /* Adiciona uma borda superior */
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /* PÁGINAS INTERNAS (SERVIÇOS, SOBRE, CONTATO) */
   .servicos, .sobre, .contato {

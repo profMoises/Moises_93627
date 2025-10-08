@@ -1,0 +1,14 @@
+.botao {
+   background-color: green;
+   display: inline;
+   padding: 20px 10px;
+   color: white;
+   text-decoration: none;
+   width: 600px;
+
+}
+
+h1{
+
+   text-shadow: 2px 2px greenyellow;
+}
