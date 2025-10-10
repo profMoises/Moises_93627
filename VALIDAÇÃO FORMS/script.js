@@ -5,10 +5,10 @@ function validateForm() {
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
     let confirmPassword = document.getElementById('confirmPassword').value;
-   
     // Obtém o elemento para exibir mensagens de erro
     let errorMessage = document.getElementById('error-message');
     
+
     // Limpa qualquer mensagem de erro anterior
     errorMessage.textContent = '';
   
@@ -34,7 +34,7 @@ function validateForm() {
     }
   
     // Verifica se o campo "Confirmar Senha" corresponde à senha
-    if (password !== confirmPassword) {
+    if (password !== confirmPassword){
       // Exibe uma mensagem de erro e interrompe o envio do formulário
       errorMessage.textContent = 'As senhas não coincidem.';
       return false;
