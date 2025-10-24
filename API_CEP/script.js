@@ -12,6 +12,12 @@ function consultarCep() {
     // URL da API de CEP (usando o serviço ViaCEP como exemplo)
     const url = `https://viacep.com.br/ws/${cep}/json/`;
 
+
+
+
+
+
+
     // Faz uma requisição à API para obter os dados do CEP
     fetch(url)
         .then(response => response.json()) // Converte a resposta em JSON
@@ -21,6 +27,12 @@ function consultarCep() {
                 alert("CEP não encontrado.");
                 return; // Interrompe a execução se o CEP não for válido
             }
+
+
+
+             
+
+
 
             // Atualiza os campos no formulário com os dados retornados pela API
             document.getElementById('rua').textContent = data.logradouro;
