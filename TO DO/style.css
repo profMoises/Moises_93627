@@ -4,10 +4,11 @@ body {
     background-color: #f4f4f4; /* Cor de fundo clara para toda a página */
     margin: 0; /* Remove as margens padrão do navegador */
     padding: 0; /* Remove o preenchimento padrão do navegador */
-    display: flex; /* Usa flexbox para centrar o conteúdo */
+    display: flex; /* Usa flexbox para centralizar o conteúdo */
     justify-content: center; /* Centraliza horizontalmente o conteúdo */
     align-items: center; /* Centraliza verticalmente o conteúdo */
-    height: 100vh; /* Define a altura da página como 100% da altura da janela de visualização */
+    height: 100vh; /* Define a altura da página como 100% 
+    da altura da janela de visualização */
 }
 
 /* Estilo para o contêiner principal da To-Do List */
@@ -94,9 +95,6 @@ h1 {
 .remove-task:hover {
     background-color: #c82333; /* Muda a cor de fundo para um tom de vermelho mais escuro */
 }
-
-
-
 
 /* Estilo para o botão de edição da tarefa */
 .edit-task {
